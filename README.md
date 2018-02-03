@@ -29,4 +29,5 @@ Packages that I am currently involved with on my sublime text:
 * Vue Syntax Highlight
 
 ### TODO
-* Update all the links for above packages.
+* Update the links for above mentioned packages.
+
