@@ -1,0 +1,31 @@
+{
+    "build_systems":
+    [
+        {
+            "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+            "name": "Anaconda Python Builder",
+            "selector": "source.python",
+            "shell_cmd": "\"/home/username/.virtualenvs/env/bin/python\" -u \"$file\""
+        }
+    ],
+    "folders":
+    [
+        {
+            "path": "."
+        },
+        {
+            "path": "/home/username/projects/gitHub/sublime_configs"
+        }
+    ],
+    "settings":
+    {
+        "anaconda_gutter_theme": "bright",
+        "anaconda_linter_mark_style": "outline",
+        "anaconda_linter_persistent": true,
+        "anaconda_linter_underlines": true,
+        "anaconda_linting": true,
+        "anaconda_linting_behaviour": "always",
+        "python_interpreter": "~/.virtualenvs/env/bin/python",
+        "validate_imports": true
+    }
+}

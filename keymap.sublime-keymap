@@ -1,0 +1,10 @@
+[
+    {"keys": ["alt+shift+i"], "command": "reindent", "args": {"single_line": false}},
+    { "keys": ["home"], "command": "move_to", "args": {"to": "bol"} },
+    { "keys": ["end"], "command": "move_to", "args": {"to": "eol"} },
+    { "keys": ["shift+end"], "command": "move_to", "args": {"to": "eol", "extend": true} },
+    { "keys": ["shift+home"], "command": "move_to", "args": {"to": "bol", "extend": true } },
+    { "keys": ["super+shift+down"], "command": "swap_line_down" },
+    { "keys": ["super+shift+up"], "command": "swap_line_up" },
+    { "keys": ["ctrl+alt+t"], "command": "terminal_view_open" },
+]
